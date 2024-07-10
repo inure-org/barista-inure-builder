@@ -1,0 +1,17 @@
+name: inure_builder
+version: 0.1.0
+
+authors:
+  - vuwints <vuwints.me@gmail.com>
+
+targets:
+  inure_builder:
+    main: src/inure_builder.cr
+
+dependencies:
+  barista:
+    inure: skinnyjames/barista
+
+crystal: 1.6.0
+
+license: MIT
